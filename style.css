@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;	
+}
+body{
+	overflow-x:hidden;
+	
+}
+li{
+    list-style-type: none;
+}
+a{
+    color: #004877;
+}
+/* .floatleft{
+    float: left;
+}
+.floatright{
+    float: right;
+} */
+.full_container{
+    width:100%;
+}
+.container{
+    width:1200px;
+    display: block;
+    margin: 0 auto;
+}
+.fix{
+    overflow: hidden;
+}
+/*----------------------------------*/
+/*Header*/
+.full_header{
+    background: #FFFFFF;
+    height: 74px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{    
+    padding-top: 19px;
+    padding-bottom: 33px; 
+    width: 40%;
+    background: #1A54E7;
+    height: 22px;
+    font-size: 28px;
+    text-align: center;
+}
+.logo a{
+    color: #FFFFFF;
+    text-decoration: none;
+    overflow: hidden;
+    
+}
+.full_nav{
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.full_nav ul li:hover{
+    border-bottom: 5px solid #1A54E7;
+}
+.full_nav ul li{
+    display: inline-block;
+    padding: 24px 15px;
+}
+.full_nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/*Section*/
+.section_main{
+    background: url(Images/Image1.png) no-repeat;
+    background-size: 100% 100%;
+    height: 820px;  
+}
+.arrow{
+    display: flex;
+    justify-content: space-between;
+}
+.section_main .section_gril_img{    
+     padding-top: 250px;
+     text-align: center;
+}
+.section_main h1{ 
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 40px;
+    font-size: 48px;
+}
+.section_main .section_li1{
+    background: #1A54E7;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.section_li1 a{
+    color: #ffff;
+}
+.section_li_w{
+    display: flex;
+    justify-content: space-between;
+    padding: 150px 100px;
+}
+.section_li2 a{
+    text-decoration: none;
+    color:#FFFFFF
+}
+.section_li2 a:hover{
+    text-decoration: underline;
+}
+
+/*content1*/
+.content1{
+    display: flex;
+    margin-top: 50px;
+}
+.trips{
+    background: #D90445;
+}
+.tech{
+    background: #000;
+}
+.content_a{   
+    position: relative;
+    bottom: 44px;
+    padding: 7px 14px;
+    color: #fff;
+    text-decoration: none;
+}
+.content_bg{
+    background:#F6F6F6 ;
+}.content1 h4{    
+    color: #3F3F3F;
+    font-size: 24px;
+    line-height: 23px;
+    margin-bottom: 20px;
+}.content_li{
+    color:#CFCFCF ;
+    text-decoration: none;
+}.content_main_a{
+    margin-bottom: 50px;
+}
+
+/*Content2*/
+
+.content_main_a1_w{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+}
+.content2{
+    margin-top: 45px;
+    background-image: url(Images/Image4.png);
+    background-repeat: no-repeat;
+    height: 400px; 
+}
+.content2_a {
+    padding-right: 50px;
+}
+.trips1{
+    background: #D90445;
+    top: 0px;
+}
+.content2 h1{
+    color: #FFFFFF;
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 100px;
+}
+.content2 p{
+    color:#FFFFFF;
+    margin-left: 300px;
+    font-size: 18px;
+    
+}
+.content2 .p1{
+    margin-left: 455px;
+    margin-top: 18px;
+}
+.content2_li{
+    position: relative;
+    margin-left: 960px;
+    font-size: 14px;
+}
+/*Content3*/
+.content_m{
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 150px;
+}
+.content_m p{
+    font-size: 18px;
+}
+.nature{
+    background: #58B600;
+}
+.people{
+    background: #1A54E7;
+    
+}
+.tech1{
+    background: #000000;
+    left: -385px;
+    bottom: 25px;
+}
+.trips2{
+    background: #D90445;
+    left: -385px;
+    bottom: 25px; 
+}
+.fashion{
+    background: #8200B2;
+}
+
+/*Footer_top*/
+.footer_top_bg{
+    background-image: url(Images/sub-bg.jpg);
+    background-repeat: no-repeat;
+    height: 415px;
+}
+.footer_w_top{
+    text-align: center;
+    padding-top: 100px;
+    color: #FFFFFF;
+}
+.footer_w_top h1{
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+.footer_w_top p{
+    font-size: 24px;
+    margin-bottom: 45px;
+}
+.input_text{
+    position: relative;
+}
+ input[type=text]{
+    background: #2C6CFF;
+    width: 347px;
+    height: 51px;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    padding-left: 28px;
+    border-radius: 30px;
+}
+.submit{
+    width: 136px;
+    height: 51px;
+    position: relative;
+    border-radius: 30px;
+    left: 128px;
+    top: -51px;
+    color: #1A54E6;
+    font-size: 18px;    
+    border: none
+}
+.footer p{
+    color: #B3B8C5;
+    font-size: 18px;
+}
+.footer strong{
+    color: #A7ACBC;
+}
