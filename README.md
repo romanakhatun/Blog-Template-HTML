@@ -7,10 +7,9 @@
     Design With HTML5 & CSS3
     Google Web Fonts Include
 
-<br />
-
 ### Unfavorable:
     No Responsive
 
+<br/>
 ### [Preview Project](https://romanakhatun.github.io/blog-template/)
 <br/>
