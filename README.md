@@ -1,5 +1,5 @@
 # BLOG TEMPLATE
-###### Blog Template created with HTML & CSS.
+###### Blog Template created with HTML5 & CSS3.
 
 <br />
 
