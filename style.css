@@ -245,6 +245,7 @@ a{
     color: #fff;
     padding-left: 28px;
     border-radius: 30px;
+    outline: none;
 }
 .submit{
     width: 136px;
